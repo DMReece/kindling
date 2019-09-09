@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/nchaloult/kindling.svg?branch=master)](https://travis-ci.org/nchaloult/kindling)
 
+## Notes to Self
+
+The instructions below aren't very good. They serve more as reminders for me as I revisit this project periodically, rather than instructions for people unfamiliar with the project.
+
 ## Getting Up and Running
 
 1. `docker-compose up -d`
@@ -14,6 +18,11 @@
 1. `open cover.html`
 
 # To-Do List
+
+## New Features
+
+* `HEAD` endpoint to check for a message's existence
+    * This could be helpful in your `message_repository.DeleteMessageByID()` func
 
 ## Refactoring/Restructuring
 
